@@ -9,4 +9,3 @@ public class FrontApplication {
         SpringApplication.run(FrontApplication.class, args);
     }
 }
-
