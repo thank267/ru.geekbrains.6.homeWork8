@@ -18,6 +18,10 @@
                 templateUrl: 'cart/cart.html',
                 controller: 'cartController'
             })
+            .when('/recommendation', {
+                templateUrl: 'recommendation/recommendation.html',
+                controller: 'recommendationController'
+            })
             .when('/orders', {
                 templateUrl: 'orders/orders.html',
                 controller: 'ordersController'

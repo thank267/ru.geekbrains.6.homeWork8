@@ -1,0 +1,12 @@
+server:
+  port: 8167
+  servlet:
+    context-path: /web-market-recommendation
+influx:
+  db_url: 'http://127.0.0.1:8086'
+  user: influxdb
+  password: influxdb
+  db_name: recommendation
+integrations:
+  core-service:
+    url: http://localhost:5555/core
