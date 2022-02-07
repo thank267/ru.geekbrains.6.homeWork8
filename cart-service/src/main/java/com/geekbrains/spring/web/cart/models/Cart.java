@@ -1,6 +1,7 @@
 package com.geekbrains.spring.web.cart.models;
 
 import com.geekbrains.spring.web.api.core.ProductDto;
+import com.geekbrains.spring.web.api.core.ProductDto;
 import lombok.Data;
 
 import java.util.ArrayList;
